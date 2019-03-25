@@ -42,13 +42,13 @@ public class UserRepositoryCustomImpl extends AbstractDAO implements UserReposit
         String jpql = "select u from User u where 1=1";
 
         if (name != null && !name.trim().isEmpty()) {
-            jpql += "and u.name=:name";
+            jpql += " and u.name=:name";
         }
         if (surname != null && !surname.trim().isEmpty()) {
-            jpql += "and u.surname=:surname";
+            jpql += " and u.surname=:surname";
         }
         if (nationalityIdbyRequest != null) {
-            jpql += "and u.nationality.id=:nid";
+            jpql += " and u.nationality.id=:nid";
         }
 
         Query q = em.createQuery(jpql, User.class);

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.inter;
+package com.mycompany.service.inter;
 
 import com.mycompany.entity.UserSkill;
 
@@ -13,7 +13,7 @@ import java.util.List;
  *
  * @author Acer
  */
-public interface UserSkillDaoInter {
+public interface UserSkillServiceInter {
 
     public List<UserSkill> getAllSkillByUserId(int id);
 

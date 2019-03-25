@@ -12,6 +12,7 @@ import com.mycompany.service.inter.UserServiceInter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -22,7 +23,8 @@ import java.util.List;
  * @author Acer
  */
 @Service
-public class UserDaoImpl implements UserServiceInter {
+@Transactional
+public class UserServiceImpl implements UserServiceInter {
 
     @PersistenceContext
     EntityManager em;

@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.inter;
+package com.mycompany.impl;
 
-import com.mycompany.entity.EmploymentHistory;
+import com.mycompany.entity.Country;
 
 import java.util.List;
 
@@ -13,6 +13,7 @@ import java.util.List;
  *
  * @author Acer
  */
-public interface EmploymentHistoryDaoInter {
-    public List<EmploymentHistory> getallEmploymentHistorybyuserId(int userId);
+public interface CountryRepositoryCustom {
+     public List<Country> getallCountry();
+     public List<Country> getallCountrybyId(int id);
 }

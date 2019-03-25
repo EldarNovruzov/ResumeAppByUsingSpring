@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.inter;
+package com.mycompany.service.inter;
 
 import com.mycompany.entity.Country;
 
@@ -13,7 +13,7 @@ import java.util.List;
  *
  * @author Acer
  */
-public interface CountryDaoInter {
+public interface CountryServiceInter {
      public List<Country> getallCountry();
      public List<Country> getallCountrybyId(int id);
 }

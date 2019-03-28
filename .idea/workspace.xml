@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="resumewebapp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a3ebb35-e3a5-482e-96fe-68ad668acfb9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/MyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/ResumeDbAppJpaSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/ResumeDbAppJpaSpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/entity/AdminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/entity/AdminLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/entity/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/entity/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/entity/EmploymentHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/entity/EmploymentHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/entity/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/entity/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/entity/UserSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/entity/UserSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/AdminLoginRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/AdminLoginRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/AdminLoginRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/AdminLoginRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/AdminLoginRepositoryCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/AdminLoginRepositoryCustomImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/CountryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/CountryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/CountryRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/CountryRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/CountryRepositoryCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/CountryRepositoryCustomImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/EmploymentHistoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/EmploymentHistoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/EmploymentHistoryRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/EmploymentHistoryRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/EmploymentHistoryRepositoryCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/EmploymentHistoryRepositoryCustomImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/SkillRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/SkillRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/SkillRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/SkillRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/SkillRepositoryCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/SkillRepositoryCustomImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/UserRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/UserRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/UserRepositoryCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/UserRepositoryCustomImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/UserSkillRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/UserSkillRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/UserSkillRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/UserSkillRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/impl/UserSkillRepositoryCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/UserSkillRepositoryCustomImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/inter/AbstractDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/inter/AbstractDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/impl/AdminLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/AdminLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/impl/CountryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/CountryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/impl/EmploymentHistoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/EmploymentHistoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/impl/SkillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/SkillServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/impl/UserSkillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/UserSkillServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/inter/AdminLoginServiceInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/inter/AdminLoginServiceInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/inter/CountryServiceInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/inter/CountryServiceInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/inter/EmploymentHistoryServiceInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/inter/EmploymentHistoryServiceInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/inter/SkillServiceInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/inter/SkillServiceInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/inter/UserServiceInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/inter/UserServiceInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/inter/UserSkillServiceInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/inter/UserSkillServiceInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbAppJPASpring/src/test/java/com/mycompany/ResumeDbAppJpaSpringApplicationTests.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/ResumeDbAppJPASpring/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/resumewebapp/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-186515754">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="43" />
+          <entry key="jsp" value="16" />
+          <entry key="properties" value="11" />
+          <entry key="xml" value="35" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="43" />
+          <entry key="JSP" value="16" />
+          <entry key="Properties" value="11" />
+          <entry key="XML" value="35" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="828" />
+          <entry key="jsp" value="8" />
+          <entry key="properties" value="83" />
+          <entry key="xml" value="259" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="828" />
+          <entry key="JSP" value="8" />
+          <entry key="Properties" value="83" />
+          <entry key="XML" value="259" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/resumewebapp/src/main/webapp/users.jsp" />
+        <option value="$PROJECT_DIR$/resumewebapp/src/main/webapp/userdetail.jsp" />
+        <option value="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/inter/UserServiceInter.java" />
+        <option value="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/mycompany/ResumeDbAppJpaSpringApplication.java" />
+        <option value="$PROJECT_DIR$/resumewebapp/src/main/java/com/compay/resumewebapp/UserController.java" />
+        <option value="$PROJECT_DIR$/resumewebapp/src/main/java/com/compay/UserController.java" />
+        <option value="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/UserRepositoryCustomImpl.java" />
+        <option value="$PROJECT_DIR$/resumewebapp/src/main/java/com/company/resumewebapp/UserController.java" />
+        <option value="$PROJECT_DIR$/resumewebapp/src/main/java/com/company/resumewebapp/ResumewebappApplication.java" />
+        <option value="$PROJECT_DIR$/resumewebapp/src/main/java/com/company/ResumewebappApplication.java" />
+        <option value="$PROJECT_DIR$/resumewebapp/src/main/java/com/company/UserController.java" />
+        <option value="$PROJECT_DIR$/ResumeDbAppJPASpring/pom.xml" />
+        <option value="$PROJECT_DIR$/resumewebapp/src/main/java/com/company/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/resumewebapp/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/ResumeDbAppJpaSpringApplication.java" />
+        <option value="$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/userdetail.jsp" />
+        <option value="$PROJECT_DIR$/resumewebapp/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="resume.multimodule" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="resume.multimodule" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ResumeDbAppJPASpring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ResumeDbAppJPASpring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="resumewebapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="resumewebapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="80" />
+    <option name="y" value="200" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaInjectionPointsAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ResumeAppByUsingSpring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553790249976" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ResumeAppFinal/webapp/resumewebapp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\ResumeAppByUsingSpring\resumewebapp\src\main\webapp\WEB-INF" />
+      <recent name="C:\Workspace\ResumeAppByUsingSpring\resumewebapp\src\main\java\com\company\" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.16">
+    <configuration name="ResumeDbAppJpaSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ResumeDbAppJpaSpringApplication" />
+      <module name="ResumeDbAppJPASpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResumeDbAppJpaSpringApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ResumeDbAppJPASpring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.ResumeDbAppJpaSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResumeDbAppJpaSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ResumeDbAppJPASpring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mycompany.ResumeDbAppJpaSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResumewebappApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="resumewebapp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.ResumewebappApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResumewebappApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="resumewebapp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.compay.resumewebapp.ResumewebappApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/resume" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="resumewebapp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/resume" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Unknown" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64730" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="resumewebapp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ResumeDbAppJpaSpringApplication" />
+      <item itemvalue="Spring Boot.ResumewebappApplication" />
+      <item itemvalue="Spring Boot.ResumeDbAppJpaSpringApplication (1)" />
+      <item itemvalue="Spring Boot.ResumewebappApplication (1)" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.16" />
+      <item itemvalue="Application.ResumeDbAppJpaSpringApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ResumeDbAppJpaSpringApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a3ebb35-e3a5-482e-96fe-68ad668acfb9" name="Default Changelist" comment="" />
+      <created>1553623081591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553623081591</updated>
+      <workItem from="1553623088135" duration="5323000" />
+      <workItem from="1553630529466" duration="1216000" />
+      <workItem from="1553775439149" duration="7190000" />
+      <workItem from="1553782675658" duration="706000" />
+      <workItem from="1553783576235" duration="6679000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21114000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6430595" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3295302" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/webapp/userdetail.jsp" />
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/inter/UserServiceInter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/AdminLoginRepositoryCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/AdminLoginRepositoryCustomImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/java/com/company/resumewebapp/ServletInitializer.java" />
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/UserRepositoryCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/MyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/outer/MyComponent.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2599">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/java/com/company/resumewebapp/ResumewebappApplication.java" />
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/java/com/company/resumewebapp/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/webapp/users.jsp" />
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/java/com/company/ResumewebappApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/inter/AbstractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/impl/UserRepositoryCustomImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="101" column="50" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/SkillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2211" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/java/com/company/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/src/main/java/com/company/ResumeDbAppJpaSpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/java/com/company/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/error.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/adminlogin.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/userdetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2500">
+          <caret line="125" column="18" lean-forward="true" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resumewebapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -7,10 +7,6 @@
 <%@page import="java.util.List"%>
 <%@page import="com.company.entity.User"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,39 +23,29 @@
 <body>
 
 
+<%
+    List<User> list= (List<User>) request.getAttribute("list");;
+%>
 <div class="container mycontainer">
     <div class="col-12 row">
         <div class="col-4">
 
-            <form:form action="usersM" method="GET" modelAttribute="user">
+            <form action="users" method="GET">
 
                 <div class="form-group">
                     <label>name:</label>
-                    <form:input
-                            onkeyup="writeWhatIamTyping()"
-                            placeholder="Enter name:"
-                            class="form-control"
-                            path="name"/>
-                    <form:errors path="name"/>
+                    <input onkeyup="writeWhatIamTyping()" placeholder="Enter name:" class="form-control" type="text" name="name" value=""/>
                 </div>
 
 
                 <div class="form-group">
                     <label>surname:</label>
-                    <form:input
-                            placeholder="Enter surname:"
-                            class="form-control"
-                            path="surname"/>
-                    <form:errors path="surname"/>
+                    <input placeholder="Enter surname:" class="form-control" type="text" name="surname" value=""/>
                 </div>
 
-                <form:button
-                        class="btn btn-primary"
-                        type="submit"
-                        value="Search"
-                        id="btnsearch">Search</form:button>
+                <input class="btn btn-primary" type="submit" name="search" value="Search" id="btnsearch"/>
 
-            </form:form>
+            </form>
 
         </div>
     </div>
@@ -75,23 +61,25 @@
             </tr>
             </thead>
             <tbody>
-            <c:forEach items="${list}" var="u">
+            <%
+                for (User u: list) {
+            %>
             <tr>
-                <td>${u.name}</td>
-                <td>${u.surname}</td>
-                <td>${u.nationality.name}</td>
+                <td><%=u.getName()%></td>
+                <td><%=u.getSurname()%></td>
+                <td><%=u.getNationality().getName()==null?"N/A":u.getNationality().getName()%></td>
                 <td style="width: 5px">
 
-                    <input type="hidden" name="id" value="<${u.id}>"/>
+                    <input type="hidden" name="id" value="<%=u.getId()%>"/>
                     <input type="hidden" name="action" value="delete">
                     <button class="btn btn-danger" type="submit" value="delete"
-                            data-toggle="modal" data-target="#exampleModalLong" onclick="setIdForDelete('<${u.id}>')">
+                            data-toggle="modal" data-target="#exampleModalLong" onclick="setIdForDelete('<%=u.getId()%>')">
                         <i class="fas fa-trash-alt"></i>
                     </button>
                 </td>
                 <td style="width: 5px">
                     <form action="userdetail" method="GET">
-                        <input type="hidden" name="id" value="<${u.id}>"/>
+                        <input type="hidden" name="id" value="<%=u.getId()%>"/>
                         <input type="hidden" name="action" value="update">
                         <button class="btn btn-secondary" type="submit" value="update">
                             <i class="fas fa-pen-square"></i>
@@ -99,7 +87,9 @@
                     </form>
                 </td>
             </tr>
-            </c:forEach>
+            <%
+                }
+            %>
             </tbody>
         </table>
     </div>

@@ -15,21 +15,10 @@
 </head>
 <body class="login_background">
 
-<form action="login" method="POST">
-    <div class="col-4 container login_fix_">
-        <center>
-            <h1>Login:</h1>
-        </center>
-        <div class="form-group">
-            <label>Email address</label>
-            <input type="email" class="form-control" placeholder="email@example.com" name="username">
-        </div>
-        <div class="form-group">
-            <label>Password</label>
-            <input type="password" class="form-control" placeholder="Password" name="password">
-        </div>
+<form action="logout" method="POST">
+
         <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
-        <button type="submit" class="btn btn-primary" name="login">Login</button>
+        <button type="submit" class="btn btn-primary">Logout</button>
     </div>
 </form>
 

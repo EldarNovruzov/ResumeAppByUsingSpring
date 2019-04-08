@@ -76,30 +76,30 @@
             </thead>
             <tbody>
             <c:forEach items="${list}" var="u">
-            <tr>
-                <td>${u.name}</td>
-                <td>${u.surname}</td>
-                <td>${u.nationality.name}</td>
-                <td style="width: 5px">
+                <tr>
+                    <td>${u.name}</td>
+                    <td>${u.surname}</td>
+                    <td>${u.nationality.name}</td>
+                    <td style="width: 5px">
 
-                    <input type="hidden" name="id" value="<${u.id}>"/>
-                    <input type="hidden" name="action" value="delete">
-                    <button class="btn btn-danger" type="submit" value="delete"
-                            data-toggle="modal" data-target="#exampleModalLong" onclick="setIdForDelete('<${u.id}>')">
-                        <i class="fas fa-trash-alt"></i>
-                    </button>
-                </td>
-                <td style="width: 5px">
-                    <form action="userdetail" method="GET">
                         <input type="hidden" name="id" value="<${u.id}>"/>
-                        <input type="hidden" name="action" value="update">
-                        <button class="btn btn-secondary" type="submit" value="update">
-                            <i class="fas fa-pen-square"></i>
+                        <input type="hidden" name="action" value="delete">
+                        <button class="btn btn-danger" type="submit" value="delete"
+                                data-toggle="modal" data-target="#exampleModalLong" onclick="setIdForDelete('<${u.id}>')">
+                            <i class="fas fa-trash-alt"></i>
                         </button>
-                    </form>
-                </td>
-            </tr>
-            </c:forEach>
+                    </td>
+                    <td style="width: 5px">
+                        <form:form action="userdetail" method="GET" modelAttribute="user">
+                            <form:hidden path="id" value="${u.id}"/>
+                            <form:hidden path="action" value="update"/>
+                            <button class="btn btn-secondary" type="submit" value="update">
+                                <i class="fas fa-pen-square"></i>
+                            </button>
+                        </form:form>
+                    </td>
+                </tr>
+
             </tbody>
         </table>
     </div>
@@ -122,15 +122,16 @@
                 Are you sure?
             </div>
             <div class="modal-footer">
-                <form action="userdetail" method="POST">
-                    <input type="hidden" name="id" value="" id="idForDelete"/>
+                <form:form action="userdelete" method="POST" modelAttribute="user">
+                    <input type="hidden" name="id" value="${u.id}" id="idForDelete"/>
                     <input type="hidden" name="action" value="delete">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button type="submit" class="btn btn-danger">Delete</button>
-                </form>
+                </form:form>
             </div>
         </div>
     </div>
 </div>
+</c:forEach>
 </body>
 </html>

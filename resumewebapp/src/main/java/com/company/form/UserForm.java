@@ -11,14 +11,18 @@ public class UserForm {
     @NotEmpty
     private String surname;
     private Integer nationalityIdbyRequest;
+    private Integer id;
+    private String action;
 
     public UserForm() {
     }
 
-    public UserForm(String name, String surname, Integer nationalityIdbyRequest) {
+    public UserForm(@NotEmpty @Size(min = 3) String name, @NotEmpty String surname, Integer nationalityIdbyRequest, Integer id, String action) {
         this.name = name;
         this.surname = surname;
         this.nationalityIdbyRequest = nationalityIdbyRequest;
+        this.id = id;
+        this.action = action;
     }
 
     public String getName() {
@@ -43,5 +47,21 @@ public class UserForm {
 
     public void setNationalityIdbyRequest(Integer nationalityIdbyRequest) {
         this.nationalityIdbyRequest = nationalityIdbyRequest;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getAction() {
+        return action;
+    }
+
+    public void setAction(String action) {
+        this.action = action;
     }
 }

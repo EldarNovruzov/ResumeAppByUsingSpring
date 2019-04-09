@@ -10,9 +10,7 @@ import com.company.service.inter.UserSkillServiceInter;
 import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -35,9 +33,9 @@ public class UserDetailController {
 
     @RequestMapping(method = RequestMethod.POST,value ="/userupdate")
     public ModelAndView userDetailUpdateIndex(@ModelAttribute("detailform") UserDetailForm udfm){
-       User s= userServiceInter.getbyID(udfm.getId());
-       s.setName(udfm.getName());
-       s.setSurname(udfm.getSurname());
+        User s= userServiceInter.getbyID(udfm.getId());
+        s.setName(udfm.getName());
+        s.setSurname(udfm.getSurname());
         userServiceInter.updateUser(s);
         ModelAndView mv=new ModelAndView("userdetailJstl");
         return mv;

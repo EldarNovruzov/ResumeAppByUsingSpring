@@ -32,26 +32,25 @@ Author     : Acer
 %>
 
 <div class="container">
-<div>
-<form action="userdetail" method="POST">
-<div class="col-4">
-<input type="hidden" name="id" value="<%=u.getId()%>"/>
-<div class="form-group">
-<label>name:</label>
-<input placeholder="Enter name:" class="form-control" type="text" name="name" value="<%=u.getName()%>"/>
-</div>
-<input type="hidden" name="action" value="update">
-<div class="form-group">
-<label>surname:</label>
-<input placeholder="Enter surname:" class="form-control" type="text" name="surname" value="<%=u.getSurname()%>"/>
-</div>
-<input class="btn btn-primary" type="submit" name="save" value="Save"/>
-</div>
-<hr/>
+    <div>
+        <form action="userupdate" method="POST">
+            <div class="col-4">
+                <input type="hidden" name="id" value="<%=u.getId()%>"/>
+                <div class="form-group">
+                    <label>name:</label>
+                    <input placeholder="Enter name:" class="form-control" type="text" name="name" value="<%=u.getName()%>"/>
+                </div>
+                <div class="form-group">
+                    <label>surname:</label>
+                    <input placeholder="Enter surname:" class="form-control" type="text" name="surname" value="<%=u.getSurname()%>"/>
+                </div>
+                <input class="btn btn-primary" type="submit" name="save" value="Save"/>
+            </div>
+            <hr/>
 
 
-</form>
-</div>
+        </form>
+    </div>
 
 <div>
 <ul class="nav nav-tabs" role="tablist">

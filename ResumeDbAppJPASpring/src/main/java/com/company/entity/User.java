@@ -197,6 +197,21 @@ public class User implements Serializable {
         this.birthplace = birthplace;
     }
 
+    public List<UserSkill> getUserSkillList() {
+        return userSkillList;
+    }
+
+    public void setUserSkillList(List<UserSkill> userSkillList) {
+        this.userSkillList = userSkillList;
+    }
+
+    public List<EmploymentHistory> getEmploymentHistoryList() {
+        return employmentHistoryList;
+    }
+
+    public void setEmploymentHistoryList(List<EmploymentHistory> employmentHistoryList) {
+        this.employmentHistoryList = employmentHistoryList;
+    }
 
     @Override
     public int hashCode() {

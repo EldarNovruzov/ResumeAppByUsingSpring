@@ -32,7 +32,7 @@ public class UserRepositoryCustomImpl extends AbstractDAO implements UserReposit
     EntityManager em;
 
     @Override
-    @Cacheable(value="users")
+//    @Cacheable(value="users")
     public List<User> getAll(String name, String surname, Integer nationalityIdbyRequest) {
 
         String jpql = "select u from User u where 1=1";

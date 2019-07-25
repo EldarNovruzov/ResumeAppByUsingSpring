@@ -1,6 +1,7 @@
 package com.company.controller;
 
 
+import com.company.aspect.MyException;
 import com.company.dto.ResponseDTO;
 import com.company.dto.UserDTO;
 import com.company.entity.User;
@@ -26,15 +27,17 @@ public class UserRestController {
             @RequestParam(value = "surname",required = false) String surname,
             @RequestParam(value = "nid",required = false) Integer nid
     ){
-        List<User> users=userService.getAll(name,surname,nid);
+        throw new MyException("ay daaaa xeta basss verdiii");
 
-        List<UserDTO> userDTOS=new ArrayList<>();
-        for (int i=0;i<users.size();i++){
-            User user = users.get(i);
-            userDTOS.add(new UserDTO(user));
-        }
-
-        return ResponseEntity.status(HttpStatus.OK).body(ResponseDTO.of(userDTOS));
+//        List<User> users=userService.getAll(name,surname,nid);
+//
+//        List<UserDTO> userDTOS=new ArrayList<>();
+//        for (int i=0;i<users.size();i++){
+//            User user = users.get(i);
+//            userDTOS.add(new UserDTO(user));
+//        }
+//
+//        return ResponseEntity.status(HttpStatus.OK).body(ResponseDTO.of(userDTOS));
     }
 
     @GetMapping("/foo")
@@ -44,7 +47,7 @@ public class UserRestController {
             @RequestParam(value = "nid",required = false) Integer nid
     ){
         List<User> users=userService.getAll(name,surname,nid);
-
+        
         List<UserDTO> userDTOS=new ArrayList<>();
         for (int i=0;i<users.size();i++){
             User user = users.get(i);

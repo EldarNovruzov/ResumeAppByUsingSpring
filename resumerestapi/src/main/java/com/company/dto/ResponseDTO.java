@@ -1,5 +1,7 @@
 package com.company.dto;
 
+
+
 public class ResponseDTO {
 
     private Integer errorCode;
@@ -8,6 +10,7 @@ public class ResponseDTO {
     private Object obj;
 
     private ResponseDTO() {
+
     }
 
     public static ResponseDTO of(Object obj){
@@ -20,7 +23,7 @@ public class ResponseDTO {
         ResponseDTO responseDTO=new ResponseDTO();
         responseDTO.setObj(obj);
         responseDTO.setSuccessMessage(successMessage);
-        return  responseDTO;
+        return responseDTO;
     }
 
     public static ResponseDTO of(Object obj, Integer errorCode, String errorMessage){
@@ -28,7 +31,7 @@ public class ResponseDTO {
         responseDTO.setObj(obj);
         responseDTO.setErrorCode(errorCode);
         responseDTO.setErrorMessage(errorMessage);
-        return  responseDTO;
+        return responseDTO;
     }
 
     public Integer getErrorCode() {
@@ -61,5 +64,15 @@ public class ResponseDTO {
 
     public void setObj(Object obj) {
         this.obj = obj;
+    }
+
+    @Override
+    public String toString() {
+        return "ResponseDTO{" +
+                "errorCode=" + errorCode +
+                ", errorMessage='" + errorMessage + '\'' +
+                ", successMessage='" + successMessage + '\'' +
+                ", obj=" + obj +
+                '}';
     }
 }

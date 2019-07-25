@@ -11,6 +11,7 @@ import com.company.inter.AbstractDAO;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+import sun.nio.cs.CharsetMapping;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -173,6 +174,17 @@ public class UserRepositoryCustomImpl extends AbstractDAO implements UserReposit
         em.persist(u);
         return true;
     }
+
+//    public Integer getI(){
+//        return null;
+//    }
+//
+//    public String method(){
+//        Integer i= getI();
+//        System.out.println(i.toString());
+//        System.out.println("method called");
+//        return "test";
+//    }
 
     private static BCrypt.Hasher crypt = BCrypt.withDefaults();
 

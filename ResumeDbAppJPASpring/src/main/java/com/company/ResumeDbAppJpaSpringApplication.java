@@ -75,9 +75,9 @@ public class ResumeDbAppJpaSpringApplication {
 //@Autowired
 //private UserRepository userRepository;
 
-	@Autowired
-	private UserServiceInter userService;
-
+//	@Autowired
+//	private UserServiceInter userService;
+//
 //	public static void main(String[] args) {
 //	SpringApplication.run(ResumeDbAppJpaSpringApplication.class, args);
 //	}
@@ -88,7 +88,7 @@ public class ResumeDbAppJpaSpringApplication {
 //			@Override
 //			public void run(String... args) throws Exception {
 //				for (int i=0;i<10;i++) {
-//					List<User> u = userRepository.getAll(null, null, null);
+//					List<User> u = userService.getAll(null, null, null);
 //				}
 //			}
 //		};

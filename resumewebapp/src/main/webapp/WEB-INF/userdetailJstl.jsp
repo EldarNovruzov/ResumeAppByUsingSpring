@@ -33,7 +33,7 @@ Author     : Acer
 
 <div class="container">
     <div>
-        <form action="userupdate" method="POST">
+        <form action="userupdate" method="GET">
             <div class="col-4">
                 <input type="hidden" name="id" value="<%=u.getId()%>"/>
                 <div class="form-group">

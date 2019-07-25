@@ -31,13 +31,23 @@ public class UserDetailController {
         return mv;
     }
 
-    @RequestMapping(method = RequestMethod.POST,value ="/userupdate")
-    public ModelAndView userDetailUpdateIndex(@ModelAttribute("detailform") UserDetailForm udfm){
-        User s= userServiceInter.getbyID(udfm.getId());
-        s.setName(udfm.getName());
-        s.setSurname(udfm.getSurname());
-        userServiceInter.updateUser(s);
+    @RequestMapping(method = RequestMethod.GET,value ="/userupdate")
+    public ModelAndView userDetailUpdateIndex(
+            @RequestParam(value = "id",required = false) Integer id,
+            @RequestParam(value = "name",required = false) String name,
+            @RequestParam(value = "surname",required = false) String surname
+    ){
         ModelAndView mv=new ModelAndView("userdetailJstl");
+
+        User s= userServiceInter.getbyID(id);
+        s.setName(name);
+        s.setSurname(surname);
+        userServiceInter.updateUser(s);
+
+        List<UserSkill> asu =usi.getAllSkillByUserId(id);
+        mv.addObject("listskill",asu);
+        mv.addObject("user", s);
+
         return mv;
     }
 
